@@ -1,0 +1,14 @@
+D:\AmdarisQuizResults\AmdarisQuizResults\bin\Debug\netcoreapp2.1\AmdarisQuizResults.deps.json
+D:\AmdarisQuizResults\AmdarisQuizResults\bin\Debug\netcoreapp2.1\AmdarisQuizResults.runtimeconfig.json
+D:\AmdarisQuizResults\AmdarisQuizResults\bin\Debug\netcoreapp2.1\AmdarisQuizResults.runtimeconfig.dev.json
+D:\AmdarisQuizResults\AmdarisQuizResults\bin\Debug\netcoreapp2.1\AmdarisQuizResults.dll
+D:\AmdarisQuizResults\AmdarisQuizResults\bin\Debug\netcoreapp2.1\AmdarisQuizResults.pdb
+D:\AmdarisQuizResults\AmdarisQuizResults\obj\Debug\netcoreapp2.1\AmdarisQuizResults.csprojAssemblyReference.cache
+D:\AmdarisQuizResults\AmdarisQuizResults\obj\Debug\netcoreapp2.1\AmdarisQuizResults.csproj.CoreCompileInputs.cache
+D:\AmdarisQuizResults\AmdarisQuizResults\obj\Debug\netcoreapp2.1\AmdarisQuizResults.RazorAssemblyInfo.cache
+D:\AmdarisQuizResults\AmdarisQuizResults\obj\Debug\netcoreapp2.1\AmdarisQuizResults.RazorAssemblyInfo.cs
+D:\AmdarisQuizResults\AmdarisQuizResults\obj\Debug\netcoreapp2.1\AmdarisQuizResults.AssemblyInfoInputs.cache
+D:\AmdarisQuizResults\AmdarisQuizResults\obj\Debug\netcoreapp2.1\AmdarisQuizResults.AssemblyInfo.cs
+D:\AmdarisQuizResults\AmdarisQuizResults\obj\Debug\netcoreapp2.1\AmdarisQuizResults.RazorTargetAssemblyInfo.cache
+D:\AmdarisQuizResults\AmdarisQuizResults\obj\Debug\netcoreapp2.1\AmdarisQuizResults.dll
+D:\AmdarisQuizResults\AmdarisQuizResults\obj\Debug\netcoreapp2.1\AmdarisQuizResults.pdb
