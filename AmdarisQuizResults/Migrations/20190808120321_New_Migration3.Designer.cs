@@ -4,14 +4,16 @@ using AmdarisQuizResults;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AmdarisQuizResultsApi.Migrations
 {
     [DbContext(typeof(AmdarisQuizContext))]
-    partial class AmdarisQuizContextModelSnapshot : ModelSnapshot
+    [Migration("20190808120321_New_Migration3")]
+    partial class New_Migration3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

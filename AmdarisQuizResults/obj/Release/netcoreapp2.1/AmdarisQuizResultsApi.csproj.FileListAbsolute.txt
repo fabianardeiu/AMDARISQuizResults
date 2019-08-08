@@ -1,0 +1,14 @@
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\bin\Release\netcoreapp2.1\AmdarisQuizResultsApi.deps.json
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\bin\Release\netcoreapp2.1\AmdarisQuizResultsApi.runtimeconfig.json
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\bin\Release\netcoreapp2.1\AmdarisQuizResultsApi.runtimeconfig.dev.json
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\bin\Release\netcoreapp2.1\AmdarisQuizResultsApi.dll
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\bin\Release\netcoreapp2.1\AmdarisQuizResultsApi.pdb
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\obj\Release\netcoreapp2.1\AmdarisQuizResultsApi.csproj.CoreCompileInputs.cache
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\obj\Release\netcoreapp2.1\AmdarisQuizResultsApi.RazorAssemblyInfo.cache
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\obj\Release\netcoreapp2.1\AmdarisQuizResultsApi.RazorAssemblyInfo.cs
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\obj\Release\netcoreapp2.1\AmdarisQuizResultsApi.AssemblyInfoInputs.cache
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\obj\Release\netcoreapp2.1\AmdarisQuizResultsApi.AssemblyInfo.cs
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\obj\Release\netcoreapp2.1\AmdarisQuizResultsApi.RazorTargetAssemblyInfo.cache
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\obj\Release\netcoreapp2.1\AmdarisQuizResultsApi.dll
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\obj\Release\netcoreapp2.1\AmdarisQuizResultsApi.pdb
+C:\Users\radu.olteanu\Work\AMDARISQuizResults\AmdarisQuizResults\obj\Release\netcoreapp2.1\AmdarisQuizResultsApi.csprojAssemblyReference.cache

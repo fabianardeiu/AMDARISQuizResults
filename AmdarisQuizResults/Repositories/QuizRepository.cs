@@ -25,9 +25,9 @@ namespace AmdarisQuizResultsApi.Repositories
             _context = context;
         }
 
-        public override Quiz AddEntity(Quiz obj)
+        public async override Task<Quiz> AddEntity(Quiz obj)
         {
-            base.AddEntity(obj);
+            await base.AddEntity(obj);
             obj.Name = $"Quiz{obj.Id}";
             base.Update(obj);
             return obj;
@@ -55,6 +55,14 @@ namespace AmdarisQuizResultsApi.Repositories
         public Quiz GenerateQuiz(Quiz quiz, int questionsCount)
         {
             quiz.Questions = GenerateQuestions(questionsCount).ToList();
+
+            foreach(var question in quiz.Questions)
+            {
+                _context.QuizToQuestions.Add(new QuizToQuestion {QuizId = quiz.Id, QuestionId = question.Id });
+
+            }
+            _context.SaveChanges();
+
             return quiz;
         }
 

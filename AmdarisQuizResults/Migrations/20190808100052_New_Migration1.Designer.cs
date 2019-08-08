@@ -4,14 +4,16 @@ using AmdarisQuizResults;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AmdarisQuizResultsApi.Migrations
 {
     [DbContext(typeof(AmdarisQuizContext))]
-    partial class AmdarisQuizContextModelSnapshot : ModelSnapshot
+    [Migration("20190808100052_New_Migration1")]
+    partial class New_Migration1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -99,7 +101,7 @@ namespace AmdarisQuizResultsApi.Migrations
 
                     b.HasKey("QuestionId", "QuizId");
 
-                    b.HasIndex("QuizId");
+                    b.HasIndex("Id");
 
                     b.ToTable("QuizToQuestions");
                 });
@@ -123,12 +125,12 @@ namespace AmdarisQuizResultsApi.Migrations
                 {
                     b.HasOne("AmdarisQuizResultsApi.Models.Question", "Question")
                         .WithMany("QuizToQuestions")
-                        .HasForeignKey("QuestionId")
+                        .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("AmdarisQuizResultsApi.Models.Quiz", "Quiz")
                         .WithMany("QuizToQuestions")
-                        .HasForeignKey("QuizId")
+                        .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618

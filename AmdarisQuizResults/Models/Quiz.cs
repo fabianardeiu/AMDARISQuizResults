@@ -10,6 +10,8 @@ namespace AmdarisQuizResultsApi.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<Question> Questions { get; set; }
+        public virtual ICollection<Question> Questions { get; set; }
+
+        public virtual IList<QuizToQuestion> QuizToQuestions { get; set; }
     }
 }
