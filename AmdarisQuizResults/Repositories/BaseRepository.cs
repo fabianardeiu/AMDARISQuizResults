@@ -2,7 +2,6 @@
 using AmdarisQuizResults.Models;
 using AmdarisQuizResultsApi.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,10 +16,10 @@ namespace AmdarisQuizResultsApi.Repositories
         {
             _context = context;
         }
-        public virtual T AddEntity(T obj)
+        public async virtual Task<T> AddEntity(T obj)
         {
-            _context.Add(obj);
-            _context.SaveChanges();
+            await _context.AddAsync(obj);
+            await _context.SaveChangesAsync();
             return obj;
         }
 

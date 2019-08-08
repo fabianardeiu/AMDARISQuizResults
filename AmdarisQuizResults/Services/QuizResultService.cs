@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AmdarisQuizResults.Models;
@@ -13,10 +12,10 @@ namespace AmdarisQuizResults.Services
         {
             _context = context;
         }
-        public QuizResult AddQuizResult(QuizResult quizResult)
+        public async Task<QuizResult> AddQuizResult(QuizResult quizResult)
         {
-            _context.Add(quizResult);
-            _context.SaveChanges();
+            await _context.AddAsync(quizResult);
+            await _context.SaveChangesAsync();
             return quizResult;
         }
 
