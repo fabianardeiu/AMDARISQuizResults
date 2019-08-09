@@ -18,6 +18,8 @@ namespace AmdarisQuizResults
         public DbSet<Quiz> Quizzes { get; set; }
         public DbSet<QuizToQuestion> QuizToQuestions { get; set; }
 
+        public DbSet<Participant> Participants { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Amdaris$2019

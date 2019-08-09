@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="AmdarisQuizResultsApi" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\radu\.olteanu\\Work\\AMDARISQuizResults\\AmdarisQuizResults\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
+  <parameter name="IIS Web Application Name" description="" value="AmdarisQuiz" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\AmdarisQuizResults\\AmdarisQuizResults\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

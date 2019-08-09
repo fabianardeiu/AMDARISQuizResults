@@ -1,6 +1,8 @@
 ﻿using AmdarisQuizResults.Models;
 using AmdarisQuizResults.Services;
+using AmdarisQuizResultsApi.DTO;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace AmdarisQuizResults.Controllers
 {
@@ -15,10 +17,10 @@ namespace AmdarisQuizResults.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddQuizResult([FromBody] QuizResult quizResult)
+        public async Task<IActionResult> AddQuizResult([FromBody] QuizResultDTO quizResult)
         {
-                var created = _quizService.AddQuizResult(quizResult);
-                return Created($"https://localhost:5003/api/quizresults/{created.Id}", created);
+           var result = await _quizService.Calculate(quizResult);
+            return result ? Ok("Saved") : (IActionResult)BadRequest();
         }
 
         [HttpGet]

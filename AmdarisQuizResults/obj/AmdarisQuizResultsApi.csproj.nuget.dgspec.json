@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\radu.olteanu\\Work\\AMDARISQuizResults\\AmdarisQuizResults\\AmdarisQuizResultsApi.csproj": {}
+    "D:\\AmdarisQuizResults\\AmdarisQuizResults\\AmdarisQuizResultsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\radu.olteanu\\Work\\AMDARISQuizResults\\AmdarisQuizResults\\AmdarisQuizResultsApi.csproj": {
+    "D:\\AmdarisQuizResults\\AmdarisQuizResults\\AmdarisQuizResultsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radu.olteanu\\Work\\AMDARISQuizResults\\AmdarisQuizResults\\AmdarisQuizResultsApi.csproj",
+        "projectUniqueName": "D:\\AmdarisQuizResults\\AmdarisQuizResults\\AmdarisQuizResultsApi.csproj",
         "projectName": "AmdarisQuizResultsApi",
-        "projectPath": "C:\\Users\\radu.olteanu\\Work\\AMDARISQuizResults\\AmdarisQuizResults\\AmdarisQuizResultsApi.csproj",
-        "packagesPath": "C:\\Users\\radu.olteanu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radu.olteanu\\Work\\AMDARISQuizResults\\AmdarisQuizResults\\obj\\",
+        "projectPath": "D:\\AmdarisQuizResults\\AmdarisQuizResults\\AmdarisQuizResultsApi.csproj",
+        "packagesPath": "C:\\Users\\fabian.ardeiu\\.nuget\\packages\\",
+        "outputPath": "D:\\AmdarisQuizResults\\AmdarisQuizResults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\radu.olteanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\fabian.ardeiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -59,7 +57,6 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true

@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using AmdarisQuizResultsApi.Models;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AmdarisQuizResults.Models
 {
@@ -6,8 +8,10 @@ namespace AmdarisQuizResults.Models
     {
         [Key]
         public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public int QuizId { get; set; }
+        public int ParticipantId { get; set; }
+        [ForeignKey("ParticipantId")]
+        public Participant Participant { get; set; }
         public int Score { get; set; }
     }
 }

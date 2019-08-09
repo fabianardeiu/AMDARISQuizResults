@@ -19,17 +19,6 @@ namespace AmdarisQuizResultsApi.Controllers
             _quizRepo = quizRepo;
         }
 
-        //[HttpPost]
-        //private IActionResult CreateQuiz([FromBody] Quiz quiz)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var created = _quizRepo.AddEntity(quiz);
-        //        return Created($"https://localhost:5003/api/quizresults/{created.Id}", created);
-        //    }
-        //    else
-        //        return BadRequest("ModelState is not valid.");
-        //}
         
         [HttpGet]
         [Route("{questionsCount}")]
